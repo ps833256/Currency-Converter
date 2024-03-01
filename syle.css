@@ -134,6 +134,9 @@ body {
   #converter-container{
     width: 65%;
   }
+  #exchangeBtn{
+    width: 60%;
+  }
 }
 
 
@@ -141,6 +144,19 @@ body {
   
   #converter-container{
     width: 80%;
+    
+  }
+
+  h1{
+    font-size: 1rem;
+  }
+  #amountinput p{
+    display: none;
+   
+  }
+  #exchangeBtn{
+    width: 70%;
+    font-size: 0.8rem;
   }
 }
 
@@ -148,5 +164,28 @@ body {
   
   #converter-container{
     width: 95%;
+  }
+
+  h1{
+    font-size: 0.8rem;
+  }
+
+  #amountinput p{
+    display: none;
+   
+  }
+}
+
+@media (max-width:576px){
+  
+  
+
+  h1{
+    font-size: 1rem;
+  }
+
+  #amountinput p{
+    display: none;
+   
   }
 }
