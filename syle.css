@@ -1,0 +1,152 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: url('omid-armin-8Nppe0yLmn8-unsplash.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+   
+  }
+
+  #converter-container {
+    width: 50%;
+    height: auto;
+    padding: 30px;
+    border-radius: 10px;
+    border-radius: 16px;
+    background-color: #E8E9EB;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+  }
+
+
+
+  #amountinput{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    background-color: white;
+    border-radius: 25px;
+    
+   
+  }
+
+  #amountinput p{
+    text-wrap: nowrap;
+    width: 20%;
+    font-size: 1.2rem;
+  }
+
+  #fromAmount:focus{
+    outline: none;
+  }
+
+  #fromAmount{
+    box-shadow: none;
+  }
+
+
+  #fromtomaal{
+    
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+  }
+
+  #fromAmount{
+    width: 70%;
+    padding: 14px;
+    border-radius: 20px;
+    
+  }
+
+  #fromtomaal p{
+    font-size: 1.3rem;
+  }
+
+
+  h1 {
+    font-size: 2.1rem;
+  }
+
+  select, input {
+    padding: 15px;
+    width: 30%;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+
+  #display p{
+    font-size: 1.4rem;
+  }
+
+
+  #exchangeBtn{
+    font-size: 1.3rem;
+      width: 50%;
+      padding: 15px;
+      margin-top: 60px;
+      font-weight: bold;
+      border: none;
+      border-radius: 30px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+      cursor: pointer;
+      background-color: #1E555C;
+      color: white;
+  }
+
+  
+  #exchangeBtn:hover{
+        background-color: #0d363b;
+  }
+
+  #display{
+    margin-top: 30px;
+  }
+
+  #img{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+
+
+
+@media (max-width:768px){
+  
+  #converter-container{
+    width: 65%;
+  }
+}
+
+
+@media (max-width:425px){
+  
+  #converter-container{
+    width: 80%;
+  }
+}
+
+@media (max-width:375px){
+  
+  #converter-container{
+    width: 95%;
+  }
+}
